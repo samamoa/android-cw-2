@@ -1,0 +1,8 @@
+pjavascript:void(0)ublic class HelloWorld{
+
+     public static void main(String []args){
+     simba();
+     } 
+     public static void simba(){
+    for  ( int i=1 ; i<=10 ; i++); 
+        System.out.println('i'); 
