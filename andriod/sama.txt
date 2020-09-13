@@ -1,8 +1,20 @@
-pjavascript:void(0)ublic class HelloWorld{
+public class HelloWorld{
 
      public static void main(String []args){
-     simba();
-     } 
-     public static void simba(){
-    for  ( int i=1 ; i<=10 ; i++); 
-        System.out.println('i'); 
+        int s= mufassa();
+        System.out.println(s);
+     }
+
+    public static int mufassa(){
+      int b =0 ; 
+       for( int i=1 ; i<=10 ; i++ ){
+      if(i !=5){  
+    
+          System.out.println(i);
+     b= b + i ;
+      }
+       }
+       return b; 
+       }
+ 
+}
